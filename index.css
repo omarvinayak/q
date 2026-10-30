@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'DM Sans', sans-serif; color: #24233a; background: #f8f8fc; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+.font-display { font-family: 'Manrope', sans-serif; }
+.dark body { background: #10101a; color: #f5f4fb; }
+.dark .surface { background: #191925; border-color: #2a2939; color: #f5f4fb; }
+.dark .muted { color: #aaa8bc; }
+.dark .field { background: #14141e; border-color: #343346; color: #f5f4fb; }
+.dark .nav-active { background: #28243e; color: #c4b5fd; }
+.dark .soft-bg { background: #222131; }
+.dark .dashboard-bg { background: #10101a; }
+.dark .home-shell { background: #10101a; color: #e8e7f2; }
+.dark .home-shell .bg-white,
+.dark .home-shell .bg-white\/50,
+.dark .home-shell .bg-white\/65,
+.dark .home-shell .bg-white\/80,
+.dark .home-shell .bg-white\/85 { background-color: #191925; }
+.dark .home-shell .text-slate-900,
+.dark .home-shell .text-slate-800 { color: #f0eff7; }
+.dark .home-shell .text-slate-700,
+.dark .home-shell .text-slate-600,
+.dark .home-shell .text-slate-500 { color: #b6b4c7; }
+.dark .home-shell header nav { color: #d3d1df; }
+.dark .home-shell #about,
+.dark .home-shell footer { background-color: #151520; border-color: #2a2939; }
+.dark .home-shell #categories .rounded-2xl.border { background-color: #191925; border-color: #2a2939; }
+.dark .home-shell .border-slate-100,
+.dark .home-shell .border-slate-200\/70 { border-color: #2a2939; }
+.dark .login-shell { background: #10101a; color: #f5f4fb; }
+.dark .login-shell > div:last-child { background: #10101a; }
+.dark .login-shell .text-slate-900,
+.dark .login-shell .text-slate-800 { color: #f0eff7; }
+.dark .login-shell .text-slate-700,
+.dark .login-shell .text-slate-600,
+.dark .login-shell .text-slate-500 { color: #b6b4c7; }
+.field { width: 100%; border: 1px solid #e8e7f0; border-radius: 12px; background: #fff; padding: 12px 14px; outline: none; transition: border-color .2s, box-shadow .2s; }
+.field:focus { border-color: #8b5cf6; box-shadow: 0 0 0 3px rgb(139 92 246 / 12%); }
+.nav-active { background: #f0edff; color: #6941c6; }
+.dashboard-bg { background: #f7f7fb; }
+.surface { background: white; border: 1px solid #eeedf4; }
+.muted { color: #85849a; }
+.soft-bg { background: #f6f4ff; }
